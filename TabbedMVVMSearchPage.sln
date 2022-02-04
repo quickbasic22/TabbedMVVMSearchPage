@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabbedMVVMSearchPage.Android", "TabbedMVVMSearchPage\TabbedMVVMSearchPage.Android\TabbedMVVMSearchPage.Android.csproj", "{D9FC8F57-F8AC-4602-9171-ECB4110CA991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabbedMVVMSearchPage", "TabbedMVVMSearchPage\TabbedMVVMSearchPage\TabbedMVVMSearchPage.csproj", "{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FC8F57-F8AC-4602-9171-ECB4110CA991}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4333E846-9D3E-4B59-BE17-7F7A2B0C2727}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5EA8633-29A2-44A0-A8E6-E54F353BF95C}
+	EndGlobalSection
+EndGlobal

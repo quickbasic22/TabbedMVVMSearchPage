@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabbedMVVMSearchPage.Views.MainPage"
+             xmlns:vm="clr-namespace:TabbedMVVMSearchPage.ViewModels">
+<ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Margin="10, 20, 10, 10"
+                     Spacing="0">
+            <Label Text="Xamarin.Forms!"
+                FontSize="46"
+                   TextColor="Purple"/>
+            <Label Text="MVVM search page"
+                FontSize="30"
+                   TextColor="Teal"/>
+            <SearchBar x:Name="ColorSearchBar"
+                       Text="{Binding Keyword}"
+                       SearchCommand="{Binding SearchCommand}" />
+            <!--TextChanged="ColorSearchBar_TextChanged"-->
+            <Grid>
+                <ListView x:Name="ColorsListView"
+                          ItemsSource="{Binding MyColors}"/>
+                <ListView x:Name="SuggestionsListView"
+                          ItemsSource="{Binding Suggestions}"
+                          BackgroundColor="Silver" />
+                <!-- ItemTapped="SuggestionsListView_ItemTapped"-->
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
